@@ -1053,7 +1053,7 @@ window.__require = function e(t, n, o) {
           var t = Math.ceil(e / 1500 * 94);
           t > 94 && (t = 94);
           var n = 5 + t;
-          return "\u51fb\u8d25\u4e86\u5168\u7403" + n + "%\u7684\u73a9\u5bb6\uff01", ["\u51fb\u8d25\u4e86\u5168\u7403" + n + "%\u7684\u73a9\u5bb6\uff01", "\u64ca\u6557\u4e86\u5168\u7403" + n + "%\u7684\u73a9\u5bb6\uff01", "Beat " + n + " % of global players""請截圖找小編領取200元購物金", "\uc804 \uc138\uacc4" + n + "% \uc758 \uc720 \uc800 \ub97c \uc774 \uacbc \uc2b5 \ub2c8 \ub2e4"][i.default.returnCurrentLanType() - 1]
+          return "\u51fb\u8d25\u4e86\u5168\u7403" + n + "%\u7684\u73a9\u5bb6\uff01", ["\u51fb\u8d25\u4e86\u5168\u7403" + n + "%\u7684\u73a9\u5bb6\uff01", "\u64ca\u6557\u4e86\u5168\u7403" + n + "%\u7684\u73a9\u5bb6\uff01", "Beat " + n + " % of global players.請截圖找小編領取200元購物金~", "\uc804 \uc138\uacc4" + n + "% \uc758 \uc720 \uc800 \ub97c \uc774 \uacbc \uc2b5 \ub2c8 \ub2e4"][i.default.returnCurrentLanType() - 1]
         }, t.Instance = null, c([d(cc.Node)], t.prototype, "clickMask", void 0), c([d(cc.Node)], t.prototype, "failedUiBox", void 0), c([d(cc.Node)], t.prototype, "di", void 0), c([d(cc.Label)], t.prototype, "levelTxt", void 0), c([d(cc.Node)], t.prototype, "guan", void 0), c([d(cc.Node)], t.prototype, "continueTip", void 0), c([d(cc.Label)], t.prototype, "scoreLabel", void 0), c([d(cc.Node)], t.prototype, "highScoreNode", void 0), c([d(cc.Node)], t.prototype, "highScore", void 0), c([d(cc.Label)], t.prototype, "highScoreLabel", void 0), c([d(cc.Label)], t.prototype, "resultTxt", void 0), c([d(cc.Label)], t.prototype, "overTxt", void 0), c([d(cc.Node)], t.prototype, "moreGameBtn", void 0), c([d(cc.Node)], t.prototype, "reStartBtn", void 0), c([d(cc.Vec2)], t.prototype, "failedBoxPos", void 0), c([d], t.prototype, "standardScore", void 0), c([d(cc.Node)], t.prototype, "bgMask", void 0), c([d(cc.Node)], t.prototype, "bencichengji", void 0), c([d(cc.SpriteFrame)], t.prototype, "bencichengjiarr", void 0), c([d(cc.Node)], t.prototype, "gengduoyouxi", void 0), c([d(cc.SpriteFrame)], t.prototype, "gengduoyouxiarr", void 0), c([d(cc.Node)], t.prototype, "adsButton2", void 0), c([d(cc.Node)], t.prototype, "bannerButton", void 0), t = n = c([u], t)
       }(cc.Component);
     n.default = p, cc._RF.pop()
@@ -3697,9 +3697,9 @@ window.__require = function e(t, n, o) {
         else if (e > 0 && e <= o) n = "I got " + e + " points in the game, really great\uff01";
         else if (e > o && e <= this.standardScore) n = "I got " + e + " points in the game, really great\uff01";
         else if (e > this.standardScore && e <= c) {
-          n = "I got in the game in " + e + " points, beating out " + (Math.floor(12 * (e - this.standardScore) / (c - this.standardScore)) + 80) + "% of global players. 請截圖找小編領取200元購物金\uff01"
+          n = "I got in the game in " + e + " points, beating out " + (Math.floor(12 * (e - this.standardScore) / (c - this.standardScore)) + 80) + "% of global players. 請截圖找小編領取200元購物金~\uff01"
         } else if (e > c && e <= a) {
-          n = "I got in the game in " + e + " points, beating out " + (Math.floor(7 * (e - c) / (a - c)) + 92) + "% of global players.請截圖找小編領取200元購物金\uff01"
+          n = "I got in the game in " + e + " points, beating out " + (Math.floor(7 * (e - c) / (a - c)) + 92) + "% of global players.請截圖找小編領取200元購物金~\uff01"
         } else if (e > a && e <= i) n = "I got in the game in " + e + " points, beating out 99% of global players. You've received a 40% off coupon. Take a screenshot and let us know!\uff01";
         else if (e > i && e < this.game_max_score) {
           n = "I got " + e + " points in the game, it said to be the world's only " + (20 - Math.ceil(17 * (e - i) / (this.game_max_score - i))) + " people to reach this level! Have you?"
