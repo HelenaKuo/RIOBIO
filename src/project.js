@@ -3697,10 +3697,10 @@ window.__require = function e(t, n, o) {
         else if (e > 0 && e <= o) n = "I got " + e + " points in the game, really great\uff01";
         else if (e > o && e <= this.standardScore) n = "I got " + e + " points in the game, really great\uff01";
         else if (e > this.standardScore && e <= c) {
-          n = "I got in the game in " + e + " points, beating out " + (Math.floor(12 * (e - this.standardScore) / (c - this.standardScore)) + 80) + "% of global players\uff01"
+          n = "I got in the game in " + e + " points, beating out " + (Math.floor(12 * (e - this.standardScore) / (c - this.standardScore)) + 80) + "% of global players 請截圖找小編領取6折優惠券~\uff01"
         } else if (e > c && e <= a) {
-          n = "I got in the game in " + e + " points, beating out " + (Math.floor(7 * (e - c) / (a - c)) + 92) + "% of global players\uff01"
-        } else if (e > a && e <= i) n = "I got in the game in " + e + " points, beating out 99% of global players\uff01";
+          n = "I got in the game in " + e + " points, beating out " + (Math.floor(7 * (e - c) / (a - c)) + 92) + "% of global players 請截圖找小編領取6折優惠券~\uff01"
+        } else if (e > a && e <= i) n = "I got in the game in " + e + " points, beating out 99% of global players 請截圖找小編領取6折優惠券~\uff01";
         else if (e > i && e < this.game_max_score) {
           n = "I got " + e + " points in the game, it said to be the world's only " + (20 - Math.ceil(17 * (e - i) / (this.game_max_score - i))) + " people to reach this level! Have you?"
         }
