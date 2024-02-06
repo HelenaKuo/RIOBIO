@@ -1387,8 +1387,6 @@ window.__require = function e(t, n, o) {
           var e = cc.find("Canvas").getComponent("MainGameJS"),
             t = r.default.Instance.GetPlayerHighScore();
           this.score > t && (t = this.score, r.default.Instance.SetPlayerHighScore(t)), e.SetScore(this.score), e.SetGameEndScore(), a.default.Instance.ShowFailedUi(s.default.score, t)
-          console.log("請記得截圖給小編領取6折優惠券");
-};
         }, t.prototype.RestartGame = function () {
           cc.find("Canvas").getComponent("MainGameJS").RestartGame()
         }, t.prototype.GetGameEndShowInfo = function () {
