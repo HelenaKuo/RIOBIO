@@ -1,11 +1,11 @@
-##RIOBIO
+## 合成大西瓜
 
-未修改版源碼，可直接在瀏覽器運行
+未修改版源码，可直接在浏览器运行
 
-線上玩：[https://daxigua.liyupi.com](https://daxigua.liyupi.com)
+在线玩：[https://daxigua.liyupi.com](https://daxigua.liyupi.com)
 
 
-### 本地啟動
+### 本地启动
 
 1. 安装 serve 工具：
 
@@ -13,7 +13,7 @@
     npm run serve
     ```
 
-2. 进入 daxigua 目錄，運行 serve：
+2. 进入 daxigua 目录，运行 serve：
 
     ```bash
     serve
