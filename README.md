@@ -1,8 +1,8 @@
-## 合成大西瓜
+##RIOBIO
 
-未修改版源码，可直接在瀏覽器運行
+未修改版源碼，可直接在瀏覽器運行
 
-在线玩：[https://daxigua.liyupi.com](https://daxigua.liyupi.com)
+線上玩：[https://daxigua.liyupi.com](https://daxigua.liyupi.com)
 
 
 ### 本地啟動
