@@ -3601,10 +3601,6 @@ window.__require = function e(t, n, o) {
         rightBtnText: cc.Label,
         maxScoreText: cc.Label
       },
-      // 在遊戲結束時顯示提示文字
-      showCouponHint: function () {
-        console.log("請記得截圖給小編領取6折優惠券");
-      },
       onLoad: function () {
         this.bgLayer.color = cc.color("#68b951"), this.standardScore = c.standScore, this.game_max_score = 200, this.rigthBtnGameName = null, this.rightBtnGameUrl = null, this.UIPosChange(), this.addClickBtns();
         var e = "\u6700\u9ad8\u7eaa\u5f55:",
@@ -4175,7 +4171,5 @@ window.__require = function e(t, n, o) {
     "./GameFunction": "GameFunction",
     "./GameManager": "GameManager"
   }]
- });
-    cc._RF.pop();
-}],
+
 }, {}, ["HttpManagerJs", "LanguageSetJs", "LoadSceneJs", "AniTools", "MainGameJS", "ToolsJs", "resArr", "MainManage", "AddScore", "AdjusWithHeight", "AudioManager", "AutoDestroy", "DataManager", "EffectCenter", "FailedUi", "GameFunction", "GameManager", "InputController", "KnifeCollision", "MainGameUi", "NewAttribute", "PhysicsParticle", "Rocker", "RotateAround", "Stack", "WallUpdate", "fruitData", "peaCannonAI", "startPanel", "wineObsmove", "winerCollision", "GameConfig", "GameUiTools", "DynamicLoad", "EffectSprite", "PlayerInfo", "PoolManager", "RandomFly", "RenderWater", "Shake", "SpriteManager", "Toast", "Utils", "bfPrefabJs", "gameOverJs", "linkHttpIconJs", "startGameJs", "use_v2.1.x_cc.Action"]);
