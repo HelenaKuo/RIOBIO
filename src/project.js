@@ -1903,9 +1903,7 @@ window.__require = function e(t, n, o) {
           e.gameOverToEnd.getComponent(cc.Button).enabled = !0
         }))), this.gameOverT2.node.opacity = 0, this.gameOverT2.node.y = this.gameOverT1.node.y - 100, this.gameOverT2.node.runAction(cc.sequence(cc.delayTime(.2), cc.spawn(cc.fadeIn(1), cc.moveBy(1, 0, -50)), cc.delayTime(.3))), this.gameOverT2.node.runAction(cc.sequence(cc.delayTime(2), cc.scaleTo(.3, 1.2).easing(cc.easeSineInOut()), cc.scaleTo(.3, 1).easing(cc.easeSineInOut()))).repeatForever()
       },
-       console.log("請記得截圖給小編領6折優惠券");
-},
-      initEndLayer: function () {
+             initEndLayer: function () {
         this.gameOverT1.node.active = !1, this.gameOverT2.node.active = !1, this.gameOverToEnd.active = !1, o.publicGameBool || adBreak({
           type: "next",
           name: "restart-game"
@@ -3603,6 +3601,10 @@ window.__require = function e(t, n, o) {
         rightBtnText: cc.Label,
         maxScoreText: cc.Label
       },
+      // 在遊戲結束時顯示提示文字
+      showCouponHint: function () {
+        console.log("請記得截圖給小編領取6折優惠券");
+      },
       onLoad: function () {
         this.bgLayer.color = cc.color("#68b951"), this.standardScore = c.standScore, this.game_max_score = 200, this.rigthBtnGameName = null, this.rightBtnGameUrl = null, this.UIPosChange(), this.addClickBtns();
         var e = "\u6700\u9ad8\u7eaa\u5f55:",
@@ -4173,4 +4175,7 @@ window.__require = function e(t, n, o) {
     "./GameFunction": "GameFunction",
     "./GameManager": "GameManager"
   }]
+ });
+    cc._RF.pop();
+}],
 }, {}, ["HttpManagerJs", "LanguageSetJs", "LoadSceneJs", "AniTools", "MainGameJS", "ToolsJs", "resArr", "MainManage", "AddScore", "AdjusWithHeight", "AudioManager", "AutoDestroy", "DataManager", "EffectCenter", "FailedUi", "GameFunction", "GameManager", "InputController", "KnifeCollision", "MainGameUi", "NewAttribute", "PhysicsParticle", "Rocker", "RotateAround", "Stack", "WallUpdate", "fruitData", "peaCannonAI", "startPanel", "wineObsmove", "winerCollision", "GameConfig", "GameUiTools", "DynamicLoad", "EffectSprite", "PlayerInfo", "PoolManager", "RandomFly", "RenderWater", "Shake", "SpriteManager", "Toast", "Utils", "bfPrefabJs", "gameOverJs", "linkHttpIconJs", "startGameJs", "use_v2.1.x_cc.Action"]);
